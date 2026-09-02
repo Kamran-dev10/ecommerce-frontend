@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "name": "Floral Natural Hair Dye Shampoo",
+    "slug": "floral-natural-hair-dye-shampoo",
+    "price": 999,
+    "oldPrice": 1399,
+    "discount": "-29%",
+    "category": "Hair",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
+    "description": "Natural herbal hair dye shampoo for shiny black hair.",
+    "inStock": true,
+    "gallery":[
+      "https://azearn.com/uploadspicghr/1770381691_2026_02_04_85c41a388bad9b5969e37042c22cdb4d (1).png",
+      "https://azearn.com/uploadspicghr/1770381704_2026_02_04_d6941fad1476614898b2e1c7f21cbe3a (1).png",
+      "https://azearn.com/uploadspicghr/1770381716_2026_02_04_dc9df58ab2ebcc8f9bbaf500c2f0204f (2).png",
+      "https://azearn.com/uploadspicghr/1770381726_2026_02_04_ec2dc5804a4bc280eb7011bab641b206 (2).jpeg"
+  ]
+  },
+  {
+    "id": 2,
+    "name": "Rice Water Hair Shampoo",
+    "slug": "rice-water-hair-shampoo",
+    "price": 899,
+    "oldPrice": 1299,
+    "discount": "-31%",
+    "category": "Hair",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883",
+    "description": "Rice water shampoo for smooth and healthy hair.",
+    "inStock": true ,
+        "gallery":[
+      "https://images.unsplash.com/photo-1526947425960-945c6e72858f",
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883",
+      "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c",
+      "https://images.unsplash.com/photo-1615397349754-cfa2066a298e"
+  ]
+
+    
+    
+  },
+  {
+    "id": 3,
+    "name": "Herbal Hair Oil",
+    "slug": "herbal-hair-oil",
+    "price": 799,
+    "oldPrice": 1099,
+    "discount": "-27%",
+    "category": "Hair",
+    "image": "https://images.unsplash.com/photo-1601612628452-9e99ced43524",
+    "description": "Natural herbal oil for hair growth and shine.",
+    "inStock": true,
+            "gallery":[
+      "https://images.unsplash.com/photo-1515377905703-c4788e51af15",
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
+      "https://images.unsplash.com/photo-1619451334792-150fd785ee74"
+  ]
+
+  },
+  {
+    "id": 4,
+    "name": "Vitamin C Face Serum",
+    "slug": "vitamin-c-face-serum",
+    "price": 1199,
+    "oldPrice": 1599,
+    "discount": "-25%",
+    "category": "Beauty",
+    "image": "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137",
+    "description": "Brightening serum for glowing and fresh skin.",
+    "inStock": true,
+                "gallery":[
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be",
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b",
+      "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800&q=80",
+      "https://images.unsplash.com/photo-1626784215021-2e39ccf971cd"
+  ]
+
+  },
+  {
+    "id": 5,
+    "name": "Organic Face Wash",
+    "slug": "organic-face-wash",
+    "price": 699,
+    "oldPrice": 999,
+    "discount": "-30%",
+    "category": "Beauty",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9",
+    "description": "Organic deep cleansing face wash.",
+    "inStock": true,
+      "gallery": [
+  ]
+
+  },
+  {
+    "id": 6,
+    "name": "Charcoal Peel Mask",
+    "slug": "charcoal-peel-mask",
+    "price": 599,
+    "oldPrice": 899,
+    "discount": "-33%",
+    "category": "Beauty",
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b",
+    "description": "Charcoal peel-off mask for clear glowing skin.",
+    "inStock": true,
+      "gallery": [
+  ]
+
+  },
+  {
+    "id": 7,
+    "name": "Rose Water Toner",
+    "slug": "rose-water-toner",
+    "price": 549,
+    "oldPrice": 799,
+    "discount": "-31%",
+    "category": "House",
+    "image": "https://images.unsplash.com/photo-1626784215021-2e39ccf971cd",
+    "description": "Refreshing rose water toner for soft skin.",
+    "inStock": true,
+      "gallery": [
+  ]
+
+  },
+  {
+    "id": 8,
+    "name": "Skin Whitening Cream",
+    "slug": "skin-whitening-cream",
+    "price": 899,
+    "oldPrice": 1299,
+    "discount": "-31%",
+    "category": "House",
+    "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a",
+    "description": "Moisturizing cream for glowing skin.",
+    "inStock": true,
+      "gallery": [
+  ]
+  },
+  {
+    "id": 9,
+    "name": "Keratin Hair Mask",
+    "slug": "keratin-hair-mask",
+    "price": 1299,
+    "oldPrice": 1799,
+    "discount": "-28%",
+    "category": "House",
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15",
+    "description": "Keratin treatment for dry and damaged hair.",
+    "inStock": true,
+      "gallery": [
+  ]
+
+  },
+  {
+    "id": 10,
+    "name": "Aloe Vera Gel",
+    "slug": "aloe-vera-gel",
+    "price": 499,
+    "oldPrice": 699,
+    "discount": "-29%",
+    "category": "Beauty",
+    "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273",
+    "description": "Pure aloe vera gel for healthy skin and hair.",
+    "inStock": true,
+      "gallery": [
+  ]
+
+  }
+]
