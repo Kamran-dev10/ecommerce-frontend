@@ -4,7 +4,7 @@ export const addToCart = async (
   productId: string,
   quantity: number = 1
 ) => {
-  const response = await api.post("/cart/add", {
+  const response = await api.post("/api/cart/add", {
     productId,
     quantity,
   });
@@ -12,20 +12,18 @@ export const addToCart = async (
   return response.data;
 };
 
-
 export const getCart = async () => {
-  const response = await api.get("/cart");
+  const response = await api.get("/api/cart");
 
   return response.data;
 };
-
 
 export const updateCartQuantity = async (
   productId: string,
   quantity: number
 ) => {
   const response = await api.put(
-    `/cart/product/${productId}`,
+    `/api/cart/product/${productId}`,
     {
       quantity,
     }
@@ -34,12 +32,11 @@ export const updateCartQuantity = async (
   return response.data;
 };
 
-
 export const deleteCartItem = async (
   cartId: string
 ) => {
   const response = await api.delete(
-    `/cart/${cartId}`
+    `/api/cart/${cartId}`
   );
 
   return response.data;
