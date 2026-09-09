@@ -56,13 +56,18 @@ export default function CheckoutPage() {
             }
 
             const items = cartItems.map((item: any) => ({
-                name: item.name,
-                price: Number(item.price),
+                price_data: {
+                    currency: "pkr",
+                    product_data: {
+                        name: item.name,
+                        images: item.image ? [item.image] : [],
+                    },
+                    unit_amount: Math.round(Number(item.price) * 100),
+                },
                 quantity: Number(item.quantity || 1),
             }));
-
             const response = await fetch(
-                "/api/create-checkout-session",
+                "https://ecommerce-backend-ecommerse.up.railway.app/api/create-checkout-session",
                 {
                     method: "POST",
 

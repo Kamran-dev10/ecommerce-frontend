@@ -175,13 +175,12 @@ function ShoppingCart() {
             );
 
             const res = await fetch(
-                "/api/create-checkout-session",
+                "https://ecommerce-backend-ecommerse.up.railway.app/api/create-checkout-session",
                 {
                     method: "POST",
 
                     headers: {
-                        "Content-Type":
-                            "application/json",
+                        "Content-Type": "application/json",
                     },
 
                     body: JSON.stringify({
