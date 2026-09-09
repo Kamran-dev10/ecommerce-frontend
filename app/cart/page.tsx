@@ -304,20 +304,14 @@ function ShoppingCart() {
                                     <img
                                         src={
                                             e.image
-                                                ? e.image.startsWith(
-                                                    "http"
-                                                )
+                                                ? e.image.startsWith("http")
                                                     ? e.image
-                                                    : `http://localhost:5000/uploads/${e.image}`
+                                                    : `https://ecommerce-backend-ecommerse.up.railway.app${e.image}`
                                                 : "/placeholder.png"
                                         }
-                                        alt={
-                                            e.name ||
-                                            "Product"
-                                        }
+                                        alt={e.name || "Product"}
                                         className="w-full h-full object-contain"
                                     />
-
                                 </div>
 
 

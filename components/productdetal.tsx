@@ -19,7 +19,7 @@ function ProductDetaile(props: any) {
 
     // Backend image URL
     const imageUrl = product.image
-        ? `http://localhost:5000/uploads/${product.image}`
+        ? `https://ecommerce-backend-ecommerse.up.railway.app${product.image}`
         : "";
 
     const [selectedImage, setSelectedImage] = useState(imageUrl);
@@ -99,7 +99,7 @@ function ProductDetaile(props: any) {
 
                                 const galleryImage = img.startsWith("http")
                                     ? img
-                                    : `http://localhost:5000/uploads/${img}`;
+                                    : `https://ecommerce-backend-ecommerse.up.railway.app${img}`;
 
                                 return (
                                     <img

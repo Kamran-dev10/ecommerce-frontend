@@ -158,17 +158,12 @@ export const ProductsSection = ({
                     <img
                       src={
                         product.image
-                          ? product.image.startsWith(
-                              "http"
-                            )
+                          ? product.image.startsWith("http")
                             ? product.image
-                            : `http://localhost:5000/uploads/${product.image}`
+                            : `https://ecommerce-backend-ecommerse.up.railway.app${product.image}`
                           : "/placeholder.png"
                       }
-                      alt={
-                        product.name ||
-                        "Product"
-                      }
+                      alt={product.name || "Product"}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
 
